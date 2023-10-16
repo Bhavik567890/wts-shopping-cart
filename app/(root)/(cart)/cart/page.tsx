@@ -36,7 +36,7 @@ const CartPage = () => {
           {cart.map((product) => (
             <div key={product.id} className="flex items-center justify-between border-b-2 p-4">
               <div className="flex items-center">
-                {/* <Image src={product.image} alt={product.title} width={300} height={300} className="h-16 w-16 mr-4" /> */}
+                <Image src={product.image} alt={product.title} width={300} height={300} className="h-16 w-16 mr-4" />
                 <div>
                   <h2 className="font-semibold text-xl">{product.title}</h2>
                   <p>{product.description}</p>

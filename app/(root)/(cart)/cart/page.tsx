@@ -9,7 +9,6 @@ import Image from "next/image";
 const CartPage = () => {
   const { cart, updateQuantity, removeProduct } = useCart();
 
-  console.log(cart,12)
 
   const calculateSubtotal = () => {
     return cart.reduce(
